@@ -21,6 +21,18 @@ namespaces:
   dul: http://www.loa-cnr.it/ontologies/DUL.owl#
   cim: http://www.fluently.eu/2024/04/cim#
   flu: http://www.semanticweb.org/sjh224/ontologies/2023/1/Draft_Fluently#
+  soma: http://www.ease-crc.org/ont/SOMA.owl#
+  somaobj: http://www.ease-crc.org/ont/SOMA-OBJ.owl#
+  dul2: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#
+  ssn: http://purl.oclc.org/NET/ssnx/ssn#
+  swrla: http://swrl.stanford.edu/ontologies/3.3/swrla.owl#
+  somaobj: http://www.ease-crc.org/ont/SOMA-OBJ.owl#
+  somaio: http://www.ease-crc.org/ont/SOMA-IO.owl#
+  somasay: http://www.ease-crc.org/ont/SOMA-SAY.owl#
+  somaact: http://www.ease-crc.org/ont/SOMA-ACT.owl#
+  somaneem: http://www.ease-crc.org/ont/SOMA-NEEM.owl#
+  dul_io: http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl#
+  somawf: http://www.ease-crc.org/ont/SOMA-WF.owl#
 
 tupleFiles:
   # the axiomatic triples for OWL-Horst w/ EQ reduction

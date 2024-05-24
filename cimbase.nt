@@ -1,0 +1,2 @@
+<cim:robot1> <rdf:type> <soho:Cobot>.
+<cim:robot1> <flu:hasName> "MyRob".
