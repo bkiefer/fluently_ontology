@@ -98,10 +98,26 @@
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#Communication -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#Communication">
+        <rdfs:subClassOf rdf:resource="http://pst.istc.cnr.it/ontologies/2019/01/soho#RobotAction"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#ScanningProcess -->
 
     <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#ScanningProcess">
         <rdfs:subClassOf rdf:resource="http://pst.istc.cnr.it/ontologies/2019/01/soho#ProductionProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#SelectionOffer -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#SelectionOffer">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2024/04/cim#Communication"/>
     </owl:Class>
     
 
