@@ -7,6 +7,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:SOMA="http://www.ease-crc.org/ont/SOMA.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
     <owl:Ontology rdf:about="http://www.fluently.eu/2024/04/cim">
@@ -67,6 +68,17 @@
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#fromTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2024/04/cim#fromTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#ScanningProcess"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#hasHorizontalResolution -->
 
     <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2024/04/cim#hasHorizontalResolution">
@@ -85,6 +97,17 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#ScanningProcess"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#toTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2024/04/cim#toTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#ScanningProcess"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
     </owl:DatatypeProperty>
     
 
@@ -171,6 +194,22 @@
 
     <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#Decline">
         <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2024/04/cim#Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#DeclineAddPose -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#DeclineAddPose">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2024/04/cim#Decline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#DeclineResolution -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#DeclineResolution">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2024/04/cim#Decline"/>
     </owl:Class>
     
 
@@ -268,6 +307,53 @@
     <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#YNQuestionResolution">
         <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2024/04/cim#YNQuestion"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Introduction -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Introduction">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Digital_File"/>
+        <SOMA:hasNameString>intro</SOMA:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Manual -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Manual">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Digital_File"/>
+        <SOMA:hasNameString>manual</SOMA:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Quality -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Quality">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Digital_File"/>
+        <SOMA:hasNameString>quality</SOMA:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Resolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Resolution">
+        <rdf:type rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Digital_File"/>
+        <SOMA:hasNameString>reso</SOMA:hasNameString>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
