@@ -35,6 +35,17 @@
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#user -->
+
+    <owl:ObjectProperty rdf:about="http://www.fluently.eu/2024/04/cim#user">
+        <owl:inverseOf rdf:resource="http://www.fluently.eu/2024/04/cim#userSessions"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#UserSession"/>
+        <rdfs:range rdf:resource="http://www.fluently.eu/2024/04/cim#User"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#userSessions -->
 
     <owl:ObjectProperty rdf:about="http://www.fluently.eu/2024/04/cim#userSessions">
