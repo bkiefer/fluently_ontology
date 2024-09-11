@@ -162,9 +162,9 @@
     
 
 
-    <!-- http://www.fluently.eu/2024/04/cim#AcceptAddpose -->
+    <!-- http://www.fluently.eu/2024/04/cim#AcceptAddPose -->
 
-    <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#AcceptAddpose">
+    <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#AcceptAddPose">
         <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2024/04/cim#Accept"/>
     </owl:Class>
     
@@ -336,9 +336,9 @@
     
 
 
-    <!-- http://www.fluently.eu/2024/04/cim#YNQuestionAddpose -->
+    <!-- http://www.fluently.eu/2024/04/cim#YNQuestionAddPose -->
 
-    <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#YNQuestionAddpose">
+    <owl:Class rdf:about="http://www.fluently.eu/2024/04/cim#YNQuestionAddPose">
         <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2024/04/cim#YNQuestion"/>
     </owl:Class>
     
