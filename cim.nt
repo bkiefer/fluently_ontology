@@ -39,6 +39,8 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#hasVerticalResolution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#ScanningProcess> .
 <http://www.fluently.eu/2024/04/cim#hasVerticalResolution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <http://www.fluently.eu/2024/04/cim#hasVerticalResolution> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.fluently.eu/2024/04/cim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.fluently.eu/2024/04/cim> <http://www.w3.org/2002/07/owl#imports> <http://www.semanticweb.org/sjh224/ontologies/2023/1/Draft_Fluently> .
 <http://www.fluently.eu/2024/04/cim#Instruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#Instruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#RobotAction> .
 <http://www.fluently.eu/2024/04/cim#InstructionSlide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
