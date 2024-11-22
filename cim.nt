@@ -9,6 +9,8 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#AcceptResolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Accept> .
 <http://www.fluently.eu/2024/04/cim#AddManualPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#AddManualPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
+<http://www.fluently.eu/2024/04/cim#ChangeRadius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.fluently.eu/2024/04/cim#ChangeRadius> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
 <http://www.fluently.eu/2024/04/cim#ChangeResolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#ChangeResolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
 <http://www.fluently.eu/2024/04/cim#CheckedDimensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -67,9 +69,15 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.fluently.eu/2024/04/cim#representation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.fluently.eu/2024/04/cim#RequestBack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.fluently.eu/2024/04/cim#RequestBack> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Communication> .
+<http://www.fluently.eu/2024/04/cim#RequestBack> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Request> .
+<http://www.fluently.eu/2024/04/cim#RequestHelp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.fluently.eu/2024/04/cim#RequestHelp> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Request> .
+<http://www.fluently.eu/2024/04/cim#Request> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.fluently.eu/2024/04/cim#Request> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Communication> .
 <http://www.fluently.eu/2024/04/cim#RequestNext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.fluently.eu/2024/04/cim#RequestNext> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Communication> .
+<http://www.fluently.eu/2024/04/cim#RequestNext> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Request> .
+<http://www.fluently.eu/2024/04/cim#RequestSkip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.fluently.eu/2024/04/cim#RequestSkip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Request> .
 <http://www.fluently.eu/2024/04/cim#Resolution> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "reso" .
 <http://www.fluently.eu/2024/04/cim#Resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#InstructionSlide> .
 <http://www.fluently.eu/2024/04/cim#Resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
