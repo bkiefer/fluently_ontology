@@ -5,6 +5,10 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
 <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.ease-crc.org/ont/SOMA.owl#hasNameString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.ease-crc.org/ont/SOMA.owl#hasNameString> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#BatteryPack> .
+<http://www.ease-crc.org/ont/SOMA.owl#hasNameString> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ease-crc.org/ont/SOMA.owl#hasNameString> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://www.ease-crc.org/ont/SOMA.owl#hasPositionData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.ease-crc.org/ont/SOMA.owl#hasPositionData> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
 <http://www.ease-crc.org/ont/SOMA.owl#hasPositionData> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
@@ -89,6 +93,13 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#Introduction> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "intro" .
 <http://www.fluently.eu/2024/04/cim#Introduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#InstructionSlide> .
 <http://www.fluently.eu/2024/04/cim#Introduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.fluently.eu/2024/04/cim#isPerformedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.fluently.eu/2024/04/cim#isPerformedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.fluently.eu/2024/04/cim#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.loa-cnr.it/ontologies/DUL.owl#Event> .
+<http://www.fluently.eu/2024/04/cim#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.loa-cnr.it/ontologies/DUL.owl#Object> .
+<http://www.fluently.eu/2024/04/cim#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://pst.istc.cnr.it/ontologies/2019/01/soho#Cobot> .
+<http://www.fluently.eu/2024/04/cim#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.loa-cnr.it/ontologies/DUL.owl#Agent> .
+<http://www.fluently.eu/2024/04/cim#isPerformedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.fluently.eu/2024/04/cim#Manual> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "manual" .
 <http://www.fluently.eu/2024/04/cim#Manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#InstructionSlide> .
 <http://www.fluently.eu/2024/04/cim#Manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -161,8 +172,10 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#wasSorted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://pst.istc.cnr.it/ontologies/2019/01/soho#ProductionAction> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#ScanningProcess> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#SortingProcess> .
+<http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.loa-cnr.it/ontologies/DUL.owl#Object> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.fluently.eu/2024/04/cim#YNQuestionAddPose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#YNQuestionAddPose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#YNQuestion> .
@@ -170,3 +183,4 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#YNQuestion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Question> .
 <http://www.fluently.eu/2024/04/cim#YNQuestionResolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#YNQuestionResolution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#YNQuestion> .
+<http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.loa-cnr.it/ontologies/DUL.owl#Object> .

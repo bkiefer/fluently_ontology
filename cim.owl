@@ -37,6 +37,19 @@
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#isPerformedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.fluently.eu/2024/04/cim#isPerformedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Event"/>
+        <rdfs:domain rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Object"/>
+        <rdfs:range rdf:resource="http://pst.istc.cnr.it/ontologies/2019/01/soho#Cobot"/>
+        <rdfs:range rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#user -->
 
     <owl:ObjectProperty rdf:about="http://www.fluently.eu/2024/04/cim#user">
@@ -58,6 +71,14 @@
     
 
 
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant -->
+
+    <rdf:Description rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant">
+        <rdfs:domain rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Object"/>
+    </rdf:Description>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -76,6 +97,17 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#BatteryCell"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ease-crc.org/ont/SOMA.owl#hasNameString -->
+
+    <rdf:Description rdf:about="http://www.ease-crc.org/ont/SOMA.owl#hasNameString">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#BatteryPack"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </rdf:Description>
     
 
@@ -203,8 +235,10 @@
 
     <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2024/04/cim#wasSuccessful">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://pst.istc.cnr.it/ontologies/2019/01/soho#ProductionAction"/>
         <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#ScanningProcess"/>
         <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#SortingProcess"/>
+        <rdfs:domain rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Object"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
