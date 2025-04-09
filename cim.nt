@@ -22,12 +22,6 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.ease-crc.org/ont/SOMA.owl#hasRadius> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <http://www.ease-crc.org/ont/SOMA.owl#hasWidth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#BatteryPack> .
 <http://www.ease-crc.org/ont/SOMA.owl#hasWidth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#AA> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "50.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#AA> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "AA" .
-<http://www.fluently.eu/2024/04/cim#AA> <http://www.fluently.eu/2024/04/cim#hasDiameter> "14.1"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#AA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
-<http://www.fluently.eu/2024/04/cim#AA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.fluently.eu/2024/04/cim#AA> <http://www.w3.org/2000/01/rdf-schema#comment> "A Type AA battery measures 49.5\u201350.5 mm (1.95\u20131.99 in) in length, including the button terminal\u2014and 13.7\u201314.5 mm (0.54\u20130.57 in) in diameter. Source: Wikipedia" .
 <http://www.fluently.eu/2024/04/cim#AcceptAddPose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#AcceptAddPose> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Accept> .
 <http://www.fluently.eu/2024/04/cim#Accept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -63,12 +57,6 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#CheckCover> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#RobotAction> .
 <http://www.fluently.eu/2024/04/cim#CheckedDimensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#CheckedDimensions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#RobotAction> .
-<http://www.fluently.eu/2024/04/cim#C> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "50.0"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#C> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "C" .
-<http://www.fluently.eu/2024/04/cim#C> <http://www.fluently.eu/2024/04/cim#hasDiameter> "26.2"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
-<http://www.fluently.eu/2024/04/cim#C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.fluently.eu/2024/04/cim#C> <http://www.w3.org/2000/01/rdf-schema#comment> "A C battery measures 50 mm (1.97 in) length and 26.2 mm (1.03 in) diameter. \nSource: Wikipedia" .
 <http://www.fluently.eu/2024/04/cim#Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.loa-cnr.it/ontologies/DUL.owl#Action> .
 <http://www.fluently.eu/2024/04/cim#DeclineAddPose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -120,6 +108,18 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#IdentifyBatteryType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
 <http://www.fluently.eu/2024/04/cim#IdentifyCellType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#IdentifyCellType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "64.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "INR18650" .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.fluently.eu/2024/04/cim#hasDiameter> "18.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.w3.org/2000/01/rdf-schema#comment> "A Type AA battery measures 49.5\u201350.5 mm (1.95\u20131.99 in) in length, including the button terminal\u2014and 13.7\u201314.5 mm (0.54\u20130.57 in) in diameter. Source: Wikipedia" .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "70.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "C" .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.fluently.eu/2024/04/cim#hasDiameter> "21.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.w3.org/2000/01/rdf-schema#comment> "A C battery measures 50 mm (1.97 in) length and 26.2 mm (1.03 in) diameter. \nSource: Wikipedia" .
 <http://www.fluently.eu/2024/04/cim#Instruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#Instruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#RobotAction> .
 <http://www.fluently.eu/2024/04/cim#InstructionSlide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -148,11 +148,6 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#Manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.fluently.eu/2024/04/cim#Offer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#Offer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2024/04/cim#Communication> .
-<http://www.fluently.eu/2024/04/cim#PackTypeA> <http://www.ease-crc.org/ont/SOMA.owl#hasLength> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#PackTypeA> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "Pack_A" .
-<http://www.fluently.eu/2024/04/cim#PackTypeA> <http://www.ease-crc.org/ont/SOMA.owl#hasWidth> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#PackTypeA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryPack> .
-<http://www.fluently.eu/2024/04/cim#PackTypeA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.fluently.eu/2024/04/cim#PlaceBattery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#PlaceBattery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
 <http://www.fluently.eu/2024/04/cim#PosesGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -198,6 +193,11 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#SmallVaccuumGripper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#Tool> .
 <http://www.fluently.eu/2024/04/cim#SortingProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#SortingProcess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#ProductionProcess> .
+<http://www.fluently.eu/2024/04/cim#Square> <http://pst.istc.cnr.it/ontologies/2019/01/soho#hasLabel> "Square" .
+<http://www.fluently.eu/2024/04/cim#Square> <http://www.ease-crc.org/ont/SOMA.owl#hasLength> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#Square> <http://www.ease-crc.org/ont/SOMA.owl#hasWidth> "0.1"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#Square> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryPack> .
+<http://www.fluently.eu/2024/04/cim#Square> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.fluently.eu/2024/04/cim#to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.fluently.eu/2024/04/cim#to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.fluently.eu/2024/04/cim#to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#ChangeRobotTool> .
@@ -208,6 +208,11 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#toTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#SortingProcess> .
 <http://www.fluently.eu/2024/04/cim#toTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#long> .
 <http://www.fluently.eu/2024/04/cim#toTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.fluently.eu/2024/04/cim#Trapezoid> <http://pst.istc.cnr.it/ontologies/2019/01/soho#hasLabel> "Trapezoid" .
+<http://www.fluently.eu/2024/04/cim#Trapezoid> <http://www.ease-crc.org/ont/SOMA.owl#hasLength> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.fluently.eu/2024/04/cim#Trapezoid> <http://www.ease-crc.org/ont/SOMA.owl#hasWidth> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.fluently.eu/2024/04/cim#Trapezoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryPack> .
+<http://www.fluently.eu/2024/04/cim#Trapezoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.fluently.eu/2024/04/cim#User> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#user> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.fluently.eu/2024/04/cim#user> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -230,6 +235,8 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://pst.istc.cnr.it/ontologies/2019/01/soho#ProductionAction> .
+<http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#BatteryClassification> .
+<http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#CellClassification> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#ScanningProcess> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2024/04/cim#SortingProcess> .
 <http://www.fluently.eu/2024/04/cim#wasSuccessful> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.loa-cnr.it/ontologies/DUL.owl#Object> .
