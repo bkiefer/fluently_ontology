@@ -715,10 +715,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#INR18650">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#BatteryCell"/>
-        <soma:hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.9</soma:hasHeight>
+        <soma:hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.065</soma:hasHeight>
         <soma:hasNameString>INR18650</soma:hasNameString>
-        <hasDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.3</hasDiameter>
-        <rdfs:comment>A Type AA battery measures 49.5–50.5 mm (1.95–1.99 in) in length, including the button terminal—and 13.7–14.5 mm (0.54–0.57 in) in diameter. Source: Wikipedia</rdfs:comment>
+        <hasDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0183</hasDiameter>
     </owl:NamedIndividual>
     
 
@@ -727,11 +726,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#INR21700">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#BatteryCell"/>
-        <soma:hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70.5</soma:hasHeight>
+        <soma:hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0703</soma:hasHeight>
         <soma:hasNameString>C</soma:hasNameString>
-        <hasDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.3</hasDiameter>
-        <rdfs:comment>A C battery measures 50 mm (1.97 in) length and 26.2 mm (1.03 in) diameter. 
-Source: Wikipedia</rdfs:comment>
+        <hasDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0213</hasDiameter>
     </owl:NamedIndividual>
     
 

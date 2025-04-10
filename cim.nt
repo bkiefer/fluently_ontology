@@ -108,18 +108,16 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#IdentifyBatteryType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
 <http://www.fluently.eu/2024/04/cim#IdentifyCellType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#IdentifyCellType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
-<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "64.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "0.065"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.fluently.eu/2024/04/cim#INR18650> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "INR18650" .
-<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.fluently.eu/2024/04/cim#hasDiameter> "18.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.fluently.eu/2024/04/cim#hasDiameter> "0.0183"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.fluently.eu/2024/04/cim#INR18650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
 <http://www.fluently.eu/2024/04/cim#INR18650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.w3.org/2000/01/rdf-schema#comment> "A Type AA battery measures 49.5\u201350.5 mm (1.95\u20131.99 in) in length, including the button terminal\u2014and 13.7\u201314.5 mm (0.54\u20130.57 in) in diameter. Source: Wikipedia" .
-<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "70.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "0.0703"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.fluently.eu/2024/04/cim#INR21700> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "C" .
-<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.fluently.eu/2024/04/cim#hasDiameter> "21.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.fluently.eu/2024/04/cim#hasDiameter> "0.0213"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.fluently.eu/2024/04/cim#INR21700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
 <http://www.fluently.eu/2024/04/cim#INR21700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.w3.org/2000/01/rdf-schema#comment> "A C battery measures 50 mm (1.97 in) length and 26.2 mm (1.03 in) diameter. \nSource: Wikipedia" .
 <http://www.fluently.eu/2024/04/cim#Instruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#Instruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#RobotAction> .
 <http://www.fluently.eu/2024/04/cim#InstructionSlide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
