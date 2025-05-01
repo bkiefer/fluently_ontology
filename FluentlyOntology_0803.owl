@@ -639,6 +639,8 @@ An &apos;intention&apos; to expand must be present (unless purely formal theorie
         <owl:inverseOf rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#isExpressedBy"/>
         <rdfs:domain rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#InformationObject"/>
         <rdfs:range rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#SocialObject"/>
+        <rdfs:comment>A relation between an InformationObject and a &apos;meaning&apos;, generalized here as a &apos;SocialObject&apos;. For example: &apos;A Beehive is a structure in which bees are kept, typically in the form of a dome or box.&apos; (Oxford dictionary)&apos;; &apos;the term Beehive expresses the concept Beehive in my apiculture ontology&apos;.
+The intuition for &apos;meaning&apos; is intended to be very broad. A separate, large comment is included for those who want to investigate more on what kind of meaning can be represented in what form.</rdfs:comment>
         <rdfs:comment>This is a large comment field for those who want to investigate the different uses of the &apos;expresses&apos; relation for modeling different approaches to meaning characterization and modeling.
 For example, in all these cases, some aspect of meaning is involved:
 
@@ -680,8 +682,6 @@ These different approaches are not necessarily conflicting, and they mostly talk
 	- Modal formal meaning (as in possible-world semantics). Here it is modelled as the expresses relation between an instance of InformationObject and an instance of Collection that isGroundingFor a Set, and which isPartOf some different instance of Collection that isGroundingFor a PossibleWorld
 
 This is only a first step to provide a framework, in which one can model different aspects of meaning. A more developed ontology should approach the problem of integrating the different uses of &apos;expresses&apos;, so that different theories, resources, methods can interoperate.</rdfs:comment>
-        <rdfs:comment>A relation between an InformationObject and a &apos;meaning&apos;, generalized here as a &apos;SocialObject&apos;. For example: &apos;A Beehive is a structure in which bees are kept, typically in the form of a dome or box.&apos; (Oxford dictionary)&apos;; &apos;the term Beehive expresses the concept Beehive in my apiculture ontology&apos;.
-The intuition for &apos;meaning&apos; is intended to be very broad. A separate, large comment is included for those who want to investigate more on what kind of meaning can be represented in what form.</rdfs:comment>
         <rdfs:label xml:lang="it">esprime</rdfs:label>
         <rdfs:label xml:lang="en">expresses</rdfs:label>
     </owl:ObjectProperty>
@@ -2874,9 +2874,9 @@ Ordering on subparameters can be created by using or specializing the object pro
     
 
 
-    <!-- http://pst.istc.cnr.it/ontologies/2019/01/soho#LowExperitseLevel -->
+    <!-- http://pst.istc.cnr.it/ontologies/2019/01/soho#LowExpertiseLevel -->
 
-    <owl:Class rdf:about="http://pst.istc.cnr.it/ontologies/2019/01/soho#LowExperitseLevel">
+    <owl:Class rdf:about="http://pst.istc.cnr.it/ontologies/2019/01/soho#LowExpertiseLevel">
         <rdfs:subClassOf rdf:resource="http://pst.istc.cnr.it/ontologies/2019/01/soho#ExpertiseLevel"/>
     </owl:Class>
     
@@ -5343,8 +5343,8 @@ For this reason, in this ontology both events and situations are allowed, togeth
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Situation"/>
-        <rdfs:comment>information object is repeating ,we need to kept at one place[md]</rdfs:comment>
         <rdfs:comment>A piece of information, such as a musical composition, a text, a word, a picture, independently from how it is concretely realized.</rdfs:comment>
+        <rdfs:comment>information object is repeating ,we need to kept at one place[md]</rdfs:comment>
         <rdfs:label xml:lang="en">InformationObject</rdfs:label>
         <rdfs:label xml:lang="it">Oggetto informativo</rdfs:label>
     </owl:Class>
@@ -5480,8 +5480,8 @@ It is different from a Plan, because plans could be carried out in order to foll
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#Role"/>
-        <rdfs:comment>parameteran be put in abstract[md]</rdfs:comment>
         <rdfs:comment>A Concept that classifies a Region; the difference between a Region and a Parameter is that regions represent sets of observable values, e.g. the height  of a given building, while parameters represent constraints or selections on observable values, e.g. &apos;VeryHigh&apos;. Therefore, parameters can also be used to constrain regions, e.g. VeryHigh on a subset of values of the Region Height applied to buildings, or to add an external selection criterion , such as measurement units, to regions, e.g. Meter on a subset of values from the Region Length applied to the Region Length applied to roads.</rdfs:comment>
+        <rdfs:comment>parameteran be put in abstract[md]</rdfs:comment>
         <rdfs:label xml:lang="en">Parameter</rdfs:label>
         <rdfs:label xml:lang="it">Parametro</rdfs:label>
     </owl:Class>
@@ -5807,10 +5807,10 @@ Situation is also able to represent reified n-ary relations, where isSettingFor 
                 <owl:allValuesFrom rdf:resource="http://www.loa-cnr.it/ontologies/DUL.owl#SocialObject"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>we need to keet it but want to get rid/restructed  off some of subclasses like language,aparameter,information object[md]</rdfs:comment>
         <rdfs:comment>Any Object that exists only within some communication Event, in which at least one PhysicalObject participates in.
 In other words, all objects that have been or are created in the process of social communication: for the sake of communication (InformationObject), for incorporating new individuals (SocialAgent, Place), for contextualizing existing entities (Situation), for collecting existing entities (Collection), or for describing existing entities (Description, Concept).
 Being dependent on communication, all social objects need to be expressed by some information object (information object are self-expressing).</rdfs:comment>
+        <rdfs:comment>we need to keet it but want to get rid/restructed  off some of subclasses like language,aparameter,information object[md]</rdfs:comment>
         <rdfs:label xml:lang="it">Oggetto sociale</rdfs:label>
         <rdfs:label xml:lang="en">Social object</rdfs:label>
     </owl:Class>

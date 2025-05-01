@@ -1124,8 +1124,8 @@ _:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://pst.istc.cnr.it/
 <http://pst.istc.cnr.it/ontologies/2019/01/soho#JointAction> <http://www.w3.org/2000/01/rdf-schema#comment> "joint action can be renamed as human & robot action [md]" .
 <http://pst.istc.cnr.it/ontologies/2019/01/soho#JointAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
 <http://pst.istc.cnr.it/ontologies/2019/01/soho#JointAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#ProductionAction> .
-<http://pst.istc.cnr.it/ontologies/2019/01/soho#LowExperitseLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://pst.istc.cnr.it/ontologies/2019/01/soho#LowExperitseLevel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#ExpertiseLevel> .
+<http://pst.istc.cnr.it/ontologies/2019/01/soho#LowExpertiseLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://pst.istc.cnr.it/ontologies/2019/01/soho#LowExpertiseLevel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#ExpertiseLevel> .
 <http://pst.istc.cnr.it/ontologies/2019/01/soho#Machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://pst.istc.cnr.it/ontologies/2019/01/soho#Machine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#ProductionObject> .
 <http://pst.istc.cnr.it/ontologies/2019/01/soho#ManualGuidance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
