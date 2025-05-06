@@ -163,6 +163,16 @@
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#hasLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2024/04/cim#hasLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.fluently.eu/2024/04/cim#Instruction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#hasQuality -->
 
     <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2024/04/cim#hasQuality">
@@ -571,11 +581,83 @@ Source: Wikipedia</rdfs:comment>
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#CommandHub_Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#CommandHub_Ready">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>CommandHub_Ready</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#CommandHub_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#CommandHub_Start">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>CommandHub_Start</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#FullScan -->
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#FullScan">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
         <soma:hasNameString>fullscan</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#FullScan_PauseIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#FullScan_PauseIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>FullScan_PauseIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#FullScan_PreviewIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#FullScan_PreviewIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>FullScan_PreviewIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#FullScan_Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#FullScan_Ready">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>FullScan_Ready</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#FullScan_RecordingIsOff -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#FullScan_RecordingIsOff">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>FullScan_RecordingIsOff</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#FullScan_RecordingIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#FullScan_RecordingIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>FullScan_RecordingIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#FullScan_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#FullScan_Start">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>FullScan_Start</soma:hasNameString>
     </owl:NamedIndividual>
     
 
@@ -625,11 +707,92 @@ Source: Wikipedia</rdfs:comment>
     
 
 
-    <!-- http://www.fluently.eu/2024/04/cim#Preview -->
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_ArtecStudioIsOff -->
 
-    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview">
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_ArtecStudioIsOff">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
-        <soma:hasNameString>preview</soma:hasNameString>
+        <soma:hasNameString>Preview_ArtecStudioIsOff</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_ArtecStudioIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_ArtecStudioIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_ArtecStudioIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_PauseIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_PauseIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_PauseIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_PreviewIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_PreviewIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_PreviewIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_Ready">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_Ready</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_RecordingIsOff -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_RecordingIsOff">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_RecordingIsOff</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_RecordingIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_RecordingIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_RecordingIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_ScanMenuIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_ScanMenuIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_ScanMenuIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_ScannerIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_ScannerIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_ScannerIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Preview_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Preview_Start">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Preview_Start</soma:hasNameString>
     </owl:NamedIndividual>
     
 
@@ -651,6 +814,96 @@ Source: Wikipedia</rdfs:comment>
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_AutoMenuIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_AutoMenuIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_AutoMenuIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_End -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_End">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_End</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_FusionEntered -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_FusionEntered">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_FusionEntered</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_FusionIsDone -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_FusionIsDone">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_FusionIsDone</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_GlobRegIsDone -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_GlobRegIsDone">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_GlobRegIsDone</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_GlobalRegistrationEntered -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_GlobalRegistrationEntered">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_GlobalRegistrationEntered</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_Ready">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_Ready</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_Start">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_Start</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_ToolsMenuIsOff -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_ToolsMenuIsOff">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_ToolsMenuIsOff</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Registration_ToolsMenuIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Registration_ToolsMenuIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Registration_ToolsMenuIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#Resolution -->
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Resolution">
@@ -665,6 +918,60 @@ Source: Wikipedia</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#SliceScan">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
         <soma:hasNameString>slicescan</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#SliceScan_MovedDown -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#SliceScan_MovedDown">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>SliceScan_MovedDown</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#SliceScan_MovedUp -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#SliceScan_MovedUp">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>SliceScan_MovedUp</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#SliceScan_Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#SliceScan_Ready">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>SliceScan_Ready</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#SliceScan_SliceScanHome -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#SliceScan_SliceScanHome">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>SliceScan_SliceScanHome</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#SliceScan_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#SliceScan_Start">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>SliceScan_Start</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#SliceScan_TopScanPos -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#SliceScan_TopScanPos">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>SliceScan_TopScanPos</soma:hasNameString>
     </owl:NamedIndividual>
     
 
