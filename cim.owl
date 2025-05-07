@@ -626,11 +626,11 @@ Source: Wikipedia</rdfs:comment>
     
 
 
-    <!-- http://www.fluently.eu/2024/04/cim#Components_RototiltTable -->
+    <!-- http://www.fluently.eu/2024/04/cim#Components_Rototilt -->
 
-    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_RototiltTable">
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Rototilt">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
-        <soma:hasNameString>Components_RototiltTable</soma:hasNameString>
+        <soma:hasNameString>Components_Rototilt</soma:hasNameString>
     </owl:NamedIndividual>
     
 
