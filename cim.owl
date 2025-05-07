@@ -599,6 +599,51 @@ Source: Wikipedia</rdfs:comment>
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#Components_Cobot -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Cobot">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Components_Cobot</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Components_Holder -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Holder">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Components_Holder</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Components_Impeller -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Impeller">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Components_Impeller</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Components_RototiltTable -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_RototiltTable">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Components_RototiltTable</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Components_Scanner -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Scanner">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Components_Scanner</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#FullScan -->
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#FullScan">
