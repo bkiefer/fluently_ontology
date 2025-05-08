@@ -626,6 +626,15 @@ Source: Wikipedia</rdfs:comment>
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#Components_Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Ready">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Components_Ready</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#Components_Rototilt -->
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Rototilt">
@@ -640,6 +649,15 @@ Source: Wikipedia</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Scanner">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
         <soma:hasNameString>Components_Scanner</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Components_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Start">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Components_Start</soma:hasNameString>
     </owl:NamedIndividual>
     
 
@@ -712,6 +730,7 @@ Source: Wikipedia</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Introduction">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
         <soma:hasNameString>intro</soma:hasNameString>
+        <soma:hasNameString>Introduction</soma:hasNameString>
     </owl:NamedIndividual>
     
 
@@ -847,6 +866,60 @@ Source: Wikipedia</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Quality">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
         <soma:hasNameString>quality</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Recording_PauseIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Recording_PauseIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Recording_PauseIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Recording_PreviewIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Recording_PreviewIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Recording_PreviewIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Recording_Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Recording_Ready">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Recording_Ready</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Recording_RecordingIsOff -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Recording_RecordingIsOff">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Recording_RecordingIsOff</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Recording_RecordingIsOn -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Recording_RecordingIsOn">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Recording_RecordingIsOn</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.fluently.eu/2024/04/cim#Recording_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Recording_Start">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Recording_Start</soma:hasNameString>
     </owl:NamedIndividual>
     
 
