@@ -608,6 +608,15 @@ Source: Wikipedia</rdfs:comment>
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#Components_EBuddy -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_EBuddy">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>EBuddy</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#Components_Holder -->
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Holder">
