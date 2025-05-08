@@ -612,7 +612,7 @@ Source: Wikipedia</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_EBuddy">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
-        <soma:hasNameString>EBuddy</soma:hasNameString>
+        <soma:hasNameString>Components EBuddy</soma:hasNameString>
     </owl:NamedIndividual>
     
 
