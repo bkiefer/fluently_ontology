@@ -33,6 +33,7 @@ namespaces:
   somaneem: http://www.ease-crc.org/ont/SOMA-NEEM.owl#
   dul_io: http://www.ontologydesignpatterns.org/ont/dul/IOLite.owl#
   somawf: http://www.ease-crc.org/ont/SOMA-WF.owl#
+  plan: http://www.fluently.eu/2024/04/plan#
 
 tupleFiles:
   # the axiomatic triples for OWL-Horst w/ EQ reduction
@@ -41,6 +42,7 @@ tupleFiles:
   - FluentlyOntology_0803.nt
   - cim.nt
   - cimbase.nt
+  - planner.nt
 
 ruleFiles:
   # we need special rules for transaction time (mixture of triples/quadruples)

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.fluently.eu/2025/04/planner#"
+     xml:base="http://www.fluently.eu/2025/04/planner"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.fluently.eu/2025/04/planner"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#conditions -->
+
+    <owl:ObjectProperty rdf:about="http://www.fluently.eu/2025/04/planner#conditions">
+        <rdfs:range rdf:resource="http://www.fluently.eu/2025/04/planner#Condition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#basicCondition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2025/04/planner#basicCondition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.fluently.eu/2025/04/planner#BasicCondition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#query -->
+
+    <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2025/04/planner#query">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.fluently.eu/2025/04/planner#QueryCondition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#AllQueryCondition -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#AllQueryCondition">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#QueryCondition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fluently.eu/2025/04/planner#query"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#AskQueryCondition -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#AskQueryCondition">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#QueryCondition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fluently.eu/2025/04/planner#query"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#AtomicCondition -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#AtomicCondition">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#BasicCondition -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#BasicCondition">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#AtomicCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#ComplexCondition -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#ComplexCondition">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#Condition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fluently.eu/2025/04/planner#conditions"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.fluently.eu/2025/04/planner#Condition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#Condition -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#Condition"/>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#Conjunction -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#Conjunction">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#ComplexCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#Disjunction -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#Disjunction">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#ComplexCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#QueryCondition -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#QueryCondition">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#AtomicCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fluently.eu/2025/04/planner#SomeQueryCondition -->
+
+    <owl:Class rdf:about="http://www.fluently.eu/2025/04/planner#SomeQueryCondition">
+        <rdfs:subClassOf rdf:resource="http://www.fluently.eu/2025/04/planner#QueryCondition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fluently.eu/2025/04/planner#query"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
