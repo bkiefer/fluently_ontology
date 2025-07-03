@@ -715,8 +715,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#INR18650">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#BatteryCell"/>
+        <soho:hasLabel>18650</soho:hasLabel>
         <soma:hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.065</soma:hasHeight>
-        <soma:hasNameString>18650</soma:hasNameString>
         <hasDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0183</hasDiameter>
     </owl:NamedIndividual>
     
@@ -726,8 +726,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#INR21700">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#BatteryCell"/>
+        <soho:hasLabel>21700</soho:hasLabel>
         <soma:hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0703</soma:hasHeight>
-        <soma:hasNameString>21700</soma:hasNameString>
         <hasDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0213</hasDiameter>
     </owl:NamedIndividual>
     

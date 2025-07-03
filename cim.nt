@@ -108,13 +108,13 @@ _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/
 <http://www.fluently.eu/2024/04/cim#IdentifyBatteryType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
 <http://www.fluently.eu/2024/04/cim#IdentifyCellType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.fluently.eu/2024/04/cim#IdentifyCellType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://pst.istc.cnr.it/ontologies/2019/01/soho#HumanAction> .
+<http://www.fluently.eu/2024/04/cim#INR18650> <http://pst.istc.cnr.it/ontologies/2019/01/soho#hasLabel> "18650" .
 <http://www.fluently.eu/2024/04/cim#INR18650> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "0.065"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#INR18650> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "18650" .
 <http://www.fluently.eu/2024/04/cim#INR18650> <http://www.fluently.eu/2024/04/cim#hasDiameter> "0.0183"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.fluently.eu/2024/04/cim#INR18650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
 <http://www.fluently.eu/2024/04/cim#INR18650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.fluently.eu/2024/04/cim#INR21700> <http://pst.istc.cnr.it/ontologies/2019/01/soho#hasLabel> "21700" .
 <http://www.fluently.eu/2024/04/cim#INR21700> <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> "0.0703"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://www.fluently.eu/2024/04/cim#INR21700> <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> "21700" .
 <http://www.fluently.eu/2024/04/cim#INR21700> <http://www.fluently.eu/2024/04/cim#hasDiameter> "0.0213"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.fluently.eu/2024/04/cim#INR21700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2024/04/cim#BatteryCell> .
 <http://www.fluently.eu/2024/04/cim#INR21700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
