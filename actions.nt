@@ -1,0 +1,202 @@
+<http://www.dfki.de/mlt/fluently/actions#BatteryFastened> <http://www.fluently.eu/2025/04/planner#basicCondition> "battery.fastened" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryFastened> <http://www.fluently.eu/2025/04/planner#description> "Battery fastened" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryFastened> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryFastened> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryKnownType> <http://www.fluently.eu/2025/04/planner#basicCondition> "battery.type != BattUnknown" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryKnownType> <http://www.fluently.eu/2025/04/planner#description> "Battery type known" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryKnownType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryKnownType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryLocationChecked> <http://www.fluently.eu/2025/04/planner#basicCondition> "battery.location" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryLocationChecked> <http://www.fluently.eu/2025/04/planner#description> "Battery location checked" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryLocationChecked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryLocationChecked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> <http://www.fluently.eu/2025/04/planner#basicCondition> "battery.locationVerified" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> <http://www.fluently.eu/2025/04/planner#description> "Battery location verified" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeChecked> <http://www.fluently.eu/2025/04/planner#basicCondition> "battery.type" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeChecked> <http://www.fluently.eu/2025/04/planner#description> "Battery type checked" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeChecked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeChecked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeNotChecked> <http://www.fluently.eu/2025/04/planner#basicCondition> "unbound(battery.type)" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeNotChecked> <http://www.fluently.eu/2025/04/planner#description> "Battery type not checked" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeNotChecked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeNotChecked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeVerified> <http://www.fluently.eu/2025/04/planner#basicCondition> "battery.typeVerified" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeVerified> <http://www.fluently.eu/2025/04/planner#description> "Battery type verified" .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeVerified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#BatteryTypeVerified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#CheckBatteryClassificationH> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#BatteryTypeChecked> .
+<http://www.dfki.de/mlt/fluently/actions#CheckBatteryClassificationH> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#Conj00090> .
+<http://www.dfki.de/mlt/fluently/actions#CheckBatteryClassificationH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#CheckBatteryClassificationH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#CheckCoverRemoved> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00102> .
+<http://www.dfki.de/mlt/fluently/actions#CheckCoverRemoved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#CheckCoverRemoved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#CheckCoverR> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00095> .
+<http://www.dfki.de/mlt/fluently/actions#CheckCoverR> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#CoverUnchecked> .
+<http://www.dfki.de/mlt/fluently/actions#CheckCoverR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#CheckCoverR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#CheckLocalizationH> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> .
+<http://www.dfki.de/mlt/fluently/actions#CheckLocalizationH> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#Conj00094> .
+<http://www.dfki.de/mlt/fluently/actions#CheckLocalizationH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#CheckLocalizationH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#CheckToolIsLargeH> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00104> .
+<http://www.dfki.de/mlt/fluently/actions#CheckToolIsLargeH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#CheckToolIsLargeH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#ClassifyBatteryR> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00089> .
+<http://www.dfki.de/mlt/fluently/actions#ClassifyBatteryR> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#BatteryTypeChecked> .
+<http://www.dfki.de/mlt/fluently/actions#ClassifyBatteryR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#ClassifyBatteryR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#CollabRemoveCover> <http://www.fluently.eu/2025/04/planner#basicCondition> "cover.whoRemoves == 'collaborative'" .
+<http://www.dfki.de/mlt/fluently/actions#CollabRemoveCover> <http://www.fluently.eu/2025/04/planner#description> "The cover is removed together" .
+<http://www.dfki.de/mlt/fluently/actions#CollabRemoveCover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#CollabRemoveCover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00089> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryFastened> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00089> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryTypeNotChecked> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00090> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryKnownType> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00090> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryTypeChecked> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00090> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryTypeVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00091> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryKnownType> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00091> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryTypeVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00091> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#Neg00092> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00091> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#Neg00093> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00094> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationChecked> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00094> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00095> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryTypeVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00095> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CoverUnchecked> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00096> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00096> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CoverDetected> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00096> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#RobotRemovesCover> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00096> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#ToolIsLargeGripper> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00097> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00097> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CollabRemoveCover> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00097> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CoverDetected> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00097> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#Neg00098> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00097> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#Neg00099> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00097> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#ToolIsLargeGripper> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00100> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverCollab> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00100> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#HumanIsReady> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00101> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00101> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CollabRemoveCover> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00101> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CoverDetected> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00101> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#HumanIsReady> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00101> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#ToolIsLargeGripper> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00102> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CoverDetected> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00102> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#Neg00103> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00102> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#RobotCoverRemoveTried> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00104> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00104> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CoverDetected> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00104> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#RobotNeccessaryForCover> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00105> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#CoverDetected> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00105> <http://www.fluently.eu/2025/04/planner#conditions> <http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverRemoval> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Conjunction> .
+<http://www.dfki.de/mlt/fluently/actions#Conj00105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#CoverDetected> <http://www.fluently.eu/2025/04/planner#basicCondition> "cover.isOn" .
+<http://www.dfki.de/mlt/fluently/actions#CoverDetected> <http://www.fluently.eu/2025/04/planner#description> "Cover detected" .
+<http://www.dfki.de/mlt/fluently/actions#CoverDetected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#CoverDetected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#CoverUnchecked> <http://www.fluently.eu/2025/04/planner#basicCondition> "unbound(cover.isOn)" .
+<http://www.dfki.de/mlt/fluently/actions#CoverUnchecked> <http://www.fluently.eu/2025/04/planner#description> "Cover not checked" .
+<http://www.dfki.de/mlt/fluently/actions#CoverUnchecked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#CoverUnchecked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#FastenBatteryH> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#BatteryFastened> .
+<http://www.dfki.de/mlt/fluently/actions#FastenBatteryH> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#BatteryFastened> .
+<http://www.dfki.de/mlt/fluently/actions#FastenBatteryH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#FastenBatteryH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#GetSupportFromHumanR> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00097> .
+<http://www.dfki.de/mlt/fluently/actions#GetSupportFromHumanR> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#Conj00100> .
+<http://www.dfki.de/mlt/fluently/actions#GetSupportFromHumanR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#GetSupportFromHumanR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.dfki.de/mlt/fluently/actions#> <http://www.w3.org/2002/07/owl#imports> <http://www.fluently.eu/2025/04/planner> .
+<http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverCollab> <http://www.fluently.eu/2025/04/planner#basicCondition> "myLastDaIs('Request(Cover)')" .
+<http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverCollab> <http://www.fluently.eu/2025/04/planner#description> "Human asked to participate in cover removal" .
+<http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverCollab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverCollab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverRemoval> <http://www.fluently.eu/2025/04/planner#basicCondition> "myLastDaIs('Request(RemoveCover)')" .
+<http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverRemoval> <http://www.fluently.eu/2025/04/planner#description> "Human asked to remove cover" .
+<http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverRemoval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverRemoval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#HumanIsReady> <http://www.fluently.eu/2025/04/planner#basicCondition> "lastDA('Confirm(Cover)')" .
+<http://www.dfki.de/mlt/fluently/actions#HumanIsReady> <http://www.fluently.eu/2025/04/planner#description> "Human is asked to prepare cover removal" .
+<http://www.dfki.de/mlt/fluently/actions#HumanIsReady> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#HumanIsReady> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#LocateBatteryR> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00091> .
+<http://www.dfki.de/mlt/fluently/actions#LocateBatteryR> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationChecked> .
+<http://www.dfki.de/mlt/fluently/actions#LocateBatteryR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#LocateBatteryR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00092> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationChecked> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Negation> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00093> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#BatteryLocationVerified> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Negation> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00098> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#HumanIsReady> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Negation> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00099> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverCollab> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Negation> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00103> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#HumanAskedCoverRemoval> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Negation> .
+<http://www.dfki.de/mlt/fluently/actions#Neg00103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverAloneR> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00096> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverAloneR> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#RobotCoverRemoveTried> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverAloneR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverAloneR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverBothR> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00101> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverBothR> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#CoverDetected> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverBothR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverBothR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverH> <http://www.fluently.eu/2025/04/planner#condition> <http://www.dfki.de/mlt/fluently/actions#Conj00105> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverH> <http://www.fluently.eu/2025/04/planner#postCondition> <http://www.dfki.de/mlt/fluently/actions#CoverDetected> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#Action> .
+<http://www.dfki.de/mlt/fluently/actions#RemoveCoverH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#RobotCoverRemoveTried> <http://www.fluently.eu/2025/04/planner#basicCondition> "lastActionWasRobotCoverRemoval()" .
+<http://www.dfki.de/mlt/fluently/actions#RobotCoverRemoveTried> <http://www.fluently.eu/2025/04/planner#description> "Robot attempted cover removal" .
+<http://www.dfki.de/mlt/fluently/actions#RobotCoverRemoveTried> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#RobotCoverRemoveTried> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#RobotNeccessaryForCover> <http://www.fluently.eu/2025/04/planner#basicCondition> "cover.whoRemoves != 'human'" .
+<http://www.dfki.de/mlt/fluently/actions#RobotNeccessaryForCover> <http://www.fluently.eu/2025/04/planner#description> "The robot is needed in cover removal" .
+<http://www.dfki.de/mlt/fluently/actions#RobotNeccessaryForCover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#RobotNeccessaryForCover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#RobotRemovesCover> <http://www.fluently.eu/2025/04/planner#basicCondition> "cover.whoRemoves == 'robot'" .
+<http://www.dfki.de/mlt/fluently/actions#RobotRemovesCover> <http://www.fluently.eu/2025/04/planner#description> "Robot can remove cover" .
+<http://www.dfki.de/mlt/fluently/actions#RobotRemovesCover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#RobotRemovesCover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.dfki.de/mlt/fluently/actions#ToolIsLargeGripper> <http://www.fluently.eu/2025/04/planner#basicCondition> "tool == 'LargeGripper'" .
+<http://www.dfki.de/mlt/fluently/actions#ToolIsLargeGripper> <http://www.fluently.eu/2025/04/planner#description> "Mounted tool is large gripper" .
+<http://www.dfki.de/mlt/fluently/actions#ToolIsLargeGripper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.fluently.eu/2025/04/planner#BasicCondition> .
+<http://www.dfki.de/mlt/fluently/actions#ToolIsLargeGripper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.fluently.eu/2025/04/planner#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.fluently.eu/2025/04/planner#BasicCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.fluently.eu/2025/04/planner#basicCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fluently.eu/2025/04/planner#condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.fluently.eu/2025/04/planner#conditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.fluently.eu/2025/04/planner#Conjunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.fluently.eu/2025/04/planner#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fluently.eu/2025/04/planner#Negation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.fluently.eu/2025/04/planner#postCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
