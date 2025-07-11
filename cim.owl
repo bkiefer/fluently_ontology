@@ -617,6 +617,15 @@ Source: Wikipedia</rdfs:comment>
     
 
 
+    <!-- http://www.fluently.eu/2024/04/cim#Components_GUI -->
+
+    <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_GUI">
+        <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
+        <soma:hasNameString>Components_GUI</soma:hasNameString>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.fluently.eu/2024/04/cim#Components_Holder -->
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Components_Holder">
@@ -738,8 +747,8 @@ Source: Wikipedia</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.fluently.eu/2024/04/cim#Introduction">
         <rdf:type rdf:resource="http://www.fluently.eu/2024/04/cim#InstructionSlide"/>
-        <soma:hasNameString>intro</soma:hasNameString>
         <soma:hasNameString>Introduction</soma:hasNameString>
+        <soma:hasNameString>intro</soma:hasNameString>
     </owl:NamedIndividual>
     
 
