@@ -87,6 +87,15 @@
     
 
 
+    <!-- http://www.fluently.eu/2025/04/planner#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2025/04/planner#name">
+        <rdfs:domain rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.fluently.eu/2025/04/planner#rdlQuery -->
 
     <owl:DatatypeProperty rdf:about="http://www.fluently.eu/2025/04/planner#rdlQuery">
