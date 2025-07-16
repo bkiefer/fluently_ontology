@@ -169,8 +169,30 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#BatteryLocationSet">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#BasicCondition"/>
-        <planner:basicCondition>area(app.pack_bb_drawer.bbs_position[0]) &gt; 1</planner:basicCondition>
+        <planner:basicCondition>app.pack_state.frame_location != None</planner:basicCondition>
         <planner:description>Pack bounding box has been set</planner:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#BatteryModelConfirmed -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#BatteryModelConfirmed">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#BasicCondition"/>
+        <planner:basicCondition>app.pack_state.model_confirmed</planner:basicCondition>
+        <planner:description>Pack model confirmed</planner:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#BatteryModelSet -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#BatteryModelSet">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#BasicCondition"/>
+        <planner:basicCondition>app.pack_state.model != None and app.pack_state.model != &apos;unknown&apos;</planner:basicCondition>
+        <planner:description>Pack model set</planner:description>
     </owl:NamedIndividual>
     
 
@@ -230,32 +252,76 @@
     
 
 
-    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00098 -->
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00161 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00098">
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00161">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
         <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryFastened"/>
-        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00097"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00160"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00100 -->
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00163 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00100">
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00163">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
         <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryFastened"/>
-        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00099"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00162"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00101 -->
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00165 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00101">
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00165">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryFastened"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00164"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00167 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00167">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryFastened"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00166"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00168 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00168">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationSet"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryModelSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00169 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00169">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryModelConfirmed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00170 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00170">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
         <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
         <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
@@ -263,13 +329,68 @@
     
 
 
-    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00102 -->
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00171 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00102">
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00171">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
         <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
         <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00173 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00173">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00172"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00175 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00175">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00174"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00177 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00177">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00176"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00179 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00179">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#Neg00178"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Conj00180 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Conj00180">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Conjunction"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellModelSet"/>
+        <planner:conditions rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsLocated"/>
     </owl:NamedIndividual>
     
 
@@ -296,22 +417,82 @@
     
 
 
-    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00097 -->
+    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00160 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00097">
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00160">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Negation"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryModelConfirmed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00162 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00162">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Negation"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryModelConfirmed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00164 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00164">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Negation"/>
         <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00099 -->
+    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00166 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00099">
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00166">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Negation"/>
         <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00172 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00172">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Negation"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsConfirmed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00174 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00174">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Negation"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsConfirmed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00176 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00176">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Negation"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsConfirmed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.dfki.de/mlt/fluently/actions#Neg00178 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#Neg00178">
+        <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Negation"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsConfirmed"/>
     </owl:NamedIndividual>
     
 
@@ -343,7 +524,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#add_cell_bb">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#AlwaysTrue"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00175"/>
+        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsLocated"/>
         <planner:name>add_cell_bb</planner:name>
     </owl:NamedIndividual>
     
@@ -354,7 +536,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#add_pack_bb">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00167"/>
         <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
         <planner:name>add_pack_bb</planner:name>
     </owl:NamedIndividual>
@@ -377,8 +559,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#check_cover_off">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
-        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00101"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryFastened"/>
+        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00170"/>
         <planner:name>check_cover_off</planner:name>
     </owl:NamedIndividual>
     
@@ -389,7 +571,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#choose_diff_cell_model">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#AlwaysTrue"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00173"/>
         <planner:name>choose_diff_cell_model</planner:name>
     </owl:NamedIndividual>
     
@@ -400,8 +582,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#choose_diff_pack_model">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationSet"/>
-        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00163"/>
+        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryModelConfirmed"/>
         <planner:name>choose_diff_pack_model</planner:name>
     </owl:NamedIndividual>
     
@@ -412,7 +594,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#classify_cells">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00177"/>
         <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellModelSet"/>
         <planner:name>classify_cells</planner:name>
     </owl:NamedIndividual>
@@ -424,8 +606,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#classify_pack">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00098"/>
-        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00161"/>
         <planner:name>classify_pack</planner:name>
     </owl:NamedIndividual>
     
@@ -436,7 +617,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#confirm_cells">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsLocated"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00180"/>
         <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsConfirmed"/>
         <planner:name>confirm_cells</planner:name>
     </owl:NamedIndividual>
@@ -448,8 +629,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#confirm_pack">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#AlwaysTrue"/>
-        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationConfirmed"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00168"/>
+        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00169"/>
         <planner:name>confirm_pack</planner:name>
     </owl:NamedIndividual>
     
@@ -484,7 +665,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#locate_cells">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CoverOff"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00179"/>
         <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#CellsLocated"/>
         <planner:name>locate_cells</planner:name>
     </owl:NamedIndividual>
@@ -496,7 +677,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#locate_pack">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00100"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00165"/>
+        <planner:postCondition rdf:resource="http://www.dfki.de/mlt/fluently/actions#BatteryLocationSet"/>
         <planner:name>locate_pack</planner:name>
     </owl:NamedIndividual>
     
@@ -542,7 +724,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.dfki.de/mlt/fluently/actions#remove_pack_cover">
         <rdf:type rdf:resource="http://www.fluently.eu/2025/04/planner#Action"/>
-        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00102"/>
+        <planner:condition rdf:resource="http://www.dfki.de/mlt/fluently/actions#Conj00171"/>
         <planner:name>remove_pack_cover</planner:name>
     </owl:NamedIndividual>
     
