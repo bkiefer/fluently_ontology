@@ -49,6 +49,7 @@ _:genid4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w
 <http://www.fluently.eu/2025/04/planner#Disjunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.fluently.eu/2025/04/planner#ComplexCondition> .
 <http://www.fluently.eu/2025/04/planner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.fluently.eu/2025/04/planner#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fluently.eu/2025/04/planner#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.fluently.eu/2025/04/planner#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fluently.eu/2025/04/planner#Action> .
 <http://www.fluently.eu/2025/04/planner#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.fluently.eu/2025/04/planner#Negation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
